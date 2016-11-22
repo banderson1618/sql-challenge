@@ -1,0 +1,45 @@
+body {
+    background:#475f77;
+}
+
+#BodyDiv{
+    width:630px;
+    height:50%;
+    margin:auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align:left;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 630px;
+}
+
+table, th, td, tr {
+   border: 1px solid black;
+}
+
+#TitleCol{
+  width: 75px;
+}
+
+#AuthorCol{
+  width: 75px;
+}
+
+#ContentCol{
+  width: 350px;
+}
+
+#EditCol{
+  width: 50px;
+}
+
+#DeleteCol{
+  width: 70px;
+}
